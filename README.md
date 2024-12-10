@@ -12,13 +12,10 @@ This repository contains a project to build a sign language recognition model us
 ## Project Structure
 ```plaintext
 .
-├── data/                 # Folder containing preprocessed datasets
 ├── notebooks/            # Jupyter notebooks for experimentation
-├── src/                  # Source code for preprocessing, training, and evaluation
-├── models/               # Saved models
-├── results/              # Output metrics and visualizations
+├── src/ 
 ├── requirements.txt      # Python dependencies
-├── README.md             # Project documentation (this file)
+├── README.md             # Project documentation
 └── LICENSE               # License for the project
 ```
 
@@ -39,30 +36,6 @@ The project uses the **WLASL dataset**, a large-scale dataset for American Sign 
    ```bash
    pip install -r requirements.txt
    ```
-
-## Usage
-### Training the Model
-1. Ensure the preprocessed dataset is in the `data/` folder.
-2. Run the training script:
-   ```bash
-   python src/train.py
-   ```
-
-### Evaluating the Model
-After training, evaluate the model on the test set:
-```bash
-python src/evaluate.py
-```
-
-### Visualizing Results
-Generate plots for training and evaluation metrics:
-```bash
-python src/visualize.py
-```
-
-## Results
-- **Accuracy**: Achieved XX% accuracy on the test set.
-- **Confusion Matrix**: Visualized to assess model performance across classes.
 
 ## Requirements
 - Python 3.7+
@@ -89,5 +62,5 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ---
 
 ### Contact
-For questions or suggestions, please open an issue or contact [thanhtung2962004@gmail.com.com].
+For questions or suggestions, please open an issue or contact [thanhtung2962004@gmail.com].
 
