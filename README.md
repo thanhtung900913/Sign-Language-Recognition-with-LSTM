@@ -13,7 +13,7 @@ This repository contains a project to build a sign language recognition model us
 ```plaintext
 .
 ├── notebooks/            # Jupyter notebooks for experimentation
-├── src/ 
+├── src/                  # Realtime implementation
 ├── requirements.txt      # Python dependencies
 ├── README.md             # Project documentation
 └── LICENSE               # License for the project
